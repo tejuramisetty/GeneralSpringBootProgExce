@@ -26,16 +26,16 @@
                 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
              <repositories>
-	       <repository>
-                 <id>springfeed</id>
-                 <url>https://pkgs.dev.azure.com/saitejaramisetty1/artifacts/_packaging/springfeed/maven/v1</url>
-                 <releases>
-                 <enabled>true</enabled>
-                 </releases>
-                 <snapshots>
-                 <enabled>true</enabled>
-                 </snapshots>
-	       </repository>
+	        <repository>
+                   <id>springfeed</id>
+                   <url>https://pkgs.dev.azure.com/saitejaramisetty1/artifacts/_packaging/springfeed/maven/v1</url>
+                   <releases>
+                   <enabled>true</enabled>
+                   </releases>
+                   <snapshots>
+                   <enabled>true</enabled>
+                   </snapshots>
+	      </repository>
             </repositories>
 	<distributionManagement> 
 		<repository>
@@ -47,7 +47,7 @@
                   <snapshots>
                   <enabled>true</enabled>
                   </snapshots>
-                 </repository>
+                </repository>
 	</distributionManagement> 
 
 	<dependencies>
