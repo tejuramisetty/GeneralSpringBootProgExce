@@ -27,28 +27,28 @@
 	</properties>
 	       
        <repositories>
-            <repository>
-               <id>springfeeds</id>
-               <url>https://pkgs.dev.azure.com/saitejaramisetty1/Artifact/_packaging/springfeeds/maven/v1</url>
-               <releases>
-               <enabled>true</enabled>
-               </releases>
-               <snapshots>
-               <enabled>true</enabled>
-               </snapshots>
-           </repository>
+           <repository>
+          <id>springfeed</id>
+          <url>https://pkgs.dev.azure.com/tejuramisetty/azartifacts/_packaging/springfeed/maven/v1</url>
+          <releases>
+          <enabled>true</enabled>
+          </releases>
+          <snapshots>
+         <enabled>true</enabled>
+          </snapshots>
+          </repository>
        </repositories>
        <distributionManagement> 
-	   <repository>
-               <id>springfeeds</id>
-               <url>https://pkgs.dev.azure.com/saitejaramisetty1/Artifact/_packaging/springfeeds/maven/v1</url>
-               <releases>
-               <enabled>true</enabled>
-               </releases>
-               <snapshots>
-               <enabled>true</enabled>
-               </snapshots>
-           </repository>    
+	  <repository>
+         <id>springfeed</id>
+         <url>https://pkgs.dev.azure.com/tejuramisetty/azartifacts/_packaging/springfeed/maven/v1</url>
+         <releases>
+         <enabled>true</enabled>
+         </releases>
+         <snapshots>
+        <enabled>true</enabled>
+         </snapshots>
+          </repository>
 	</distributionManagement> 
 
 	<dependencies>
